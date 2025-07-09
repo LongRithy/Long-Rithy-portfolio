@@ -1,0 +1,15 @@
+/* src/assets/global.css */
+
+.gradient-text {
+  background: linear-gradient(135deg, #3a86ff, #8338ec);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.khmer {
+  font-family: "Noto Sans Khmer", "Khmer OS", "Battambang", sans-serif;
+}
+.english {
+  font-family: "Noto Sans", "Arial", sans-serif;
+}

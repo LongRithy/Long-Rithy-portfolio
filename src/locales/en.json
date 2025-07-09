@@ -1,0 +1,94 @@
+{
+  "home": "Home",
+  "about": "About",
+  "projects": "Projects",
+  "contact": "Contact",
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact",
+    "logo": "Long Rithy"
+  },
+  "Home": {
+    "title": "Hi, my name is Long Rithy",
+    "subtitle": "A passionate web developer",
+    "description": "I create beautiful and functional websites that provide great user experiences.",
+    "contactme": "Contact Me",
+    "readmore": "Read More"
+  },
+  "footer": {
+    "tagline": "Crafting beautiful and functional web experiences.",
+    "rights": "All rights reserved."
+  },
+  "Contact": {
+  "title": "Get In",
+  "touch": "Touch",
+  "infoTitle": "Contact Information",
+  "infoText": "Feel free to reach out to me for project inquiries or just to say hello!",
+  "location": "Location",
+  "locationValue": "Phnom Penh, Cambodia",
+  "phone": "Phone",
+  "phoneValue": "+855 416 114",
+  "name": "Name",
+  "namePlaceholder": "Your Name",
+  "nameRequired": "Name is required.",
+  "email": "Email",
+  "emailPlaceholder": "Your Email",
+  "emailRequired": "Email is required.",
+  "emailInvalid": "Please enter a valid email address.",
+  "subject": "Subject",
+  "subjectPlaceholder": "Subject",
+  "message": "Message",
+  "messagePlaceholder": "Your Message",
+  "messageRequired": "Message is required.",
+  "send": "Send Message",
+  "thankYou": "Thank you,",
+  "responseMessage": "Your message has been sent.",
+  "formError": "Please fix the errors in the form and try again."
+},
+
+  "About": {
+    "title": "About",
+    "me": "Me",
+    "heading": "My Skills",
+    "content1": "I'm a passionate frontend developer with 5+ years of experience building modern web applications.",
+    "content2": "My approach combines aesthetic design with technical excellence - I believe beautiful interfaces should also be performant and accessible.",
+    "education": "Bachelor in Computer Science",
+    "degree": "Degree",
+    "experience": "Experience",
+    "years": "5+ Years",
+    "projects": "Projects",
+    "completed": "50+ Completed",
+    "clients": "Clients",
+    "happy": "20+ Happy",
+    "skills": "Skills",
+    "AboutMySkills": "About my skills"
+  },
+  "skills": {
+    "title": "My",
+    "skills": "Skills"
+  },
+  "homePage": {
+    "title": "Hi, my name is",
+    "subtitle": "A passionate web developer",
+    "description": "I create beautiful and functional websites that provide great user experiences.",
+    "contactme": "Contact Me",
+    "readmore": "Read More"
+  },
+  "projectsPage": {
+  "title": "My Projects",
+  "projects": "Projects",
+  "viewDetails": "View Details",
+  "showMore": "Show More",
+  "showLess": "Show Less"
+    },
+  "Footer": {
+    "tagline": "Creating beautiful and functional web experiences.",
+    "copyright": "All rights reserved.",
+    "Portfolio.copyright": ""
+  }
+
+}
+
+

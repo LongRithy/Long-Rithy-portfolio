@@ -1,0 +1,21 @@
+/* Import fonts first */
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@400;700&display=swap');
+
+/* Then Tailwind directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-gray-50;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary to-secondary;
+  -webkit-background-clip: text;
+  background-clip: text;
+  @apply text-transparent;
+}
+
+/* ... rest of your custom styles ... */
