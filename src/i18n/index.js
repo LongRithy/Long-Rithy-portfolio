@@ -1,24 +1,21 @@
-import { createI18n } from 'vue-i18n'
-import en from '../locales/en.json'
-import km from '../locales/km.json'
+import { createI18n } from "vue-i18n";
+import en from "@/locales/en.json";
+import kh from "@/locales/kh.json";
 
-const savedLang = localStorage.getItem('portfolio-lang') || 'en'
+const savedLang = localStorage.getItem("portfolio-lang") || "en";
 
-export const i18n = createI18n({
+const i18n = createI18n({
   legacy: false,
   locale: savedLang,
-  fallbackLocale: 'en',
+  fallbackLocale: "en",
   messages: {
     en,
-    km
+    km: kh
   }
-})
+});
 
+export default i18n;
 export function setLanguage(lang) {
-  localStorage.setItem('portfolio-lang', lang)
-  document.documentElement.lang = lang
-  i18n.global.locale.value = lang
-}
-export function getLanguage() {
-  return localStorage.getItem('portfolio-lang') || 'en'
+  i18n.global.locale.value = lang;
+  localStorage.setItem("portfolio-lang", lang);
 }

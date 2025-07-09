@@ -7,6 +7,7 @@ import km from './locales/km.json'
 import './assets/main.css'
 import './assets/global.css'
 
+
 import { createI18n } from 'vue-i18n'
 const savedLang = localStorage.getItem('portfolio-lang') || 'en'
 const i18n = createI18n({
