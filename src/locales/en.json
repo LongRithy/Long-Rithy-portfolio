@@ -10,13 +10,6 @@
     "contact": "Contact",
     "logo": "Long Rithy"
   },
-  "Home": {
-    "title": "Hi, my name is Long Rithy",
-    "subtitle": "A passionate web developer",
-    "description": "I create beautiful and functional websites that provide great user experiences.",
-    "contactme": "Contact Me",
-    "readmore": "Read More"
-  },
   "footer": {
     "tagline": "Crafting beautiful and functional web experiences.",
     "rights": "All rights reserved."
@@ -70,7 +63,7 @@
     "skills": "Skills"
   },
   "homePage": {
-    "title": "Hi, my name is",
+    "title": "Hi, my name is Long Rithy",
     "subtitle": "A passionate web developer",
     "description": "I create beautiful and functional websites that provide great user experiences.",
     "contactme": "Contact Me",
@@ -83,6 +76,7 @@
   "showMore": "Show More",
   "showLess": "Show Less"
     },
+    
   "Footer": {
     "tagline": "Creating beautiful and functional web experiences.",
     "copyright": "All rights reserved.",

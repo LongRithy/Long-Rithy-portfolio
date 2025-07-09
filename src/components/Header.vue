@@ -135,7 +135,7 @@ export default {
 <style scoped>
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #3a86ff, #8338ec);
+  background: linear-gradient(135deg, #2e7fd1, #8338ec);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -156,7 +156,7 @@ export default {
 
 /* Active link styling */
 .active-link {
-  color: #3b82f6 !important;
+  color: #3b82f6 !important; /* Tailwind blue-500 */
   text-decoration: underline;
   font-weight: bold;
 }
@@ -166,6 +166,7 @@ export default {
   display: flex;
   gap: 8px;
   margin-left: 20px;
+
 }
 
 .lang-btn {

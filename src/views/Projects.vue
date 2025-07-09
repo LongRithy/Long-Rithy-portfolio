@@ -143,4 +143,4 @@ export default {
 .khmer {
   font-family: "Noto Sans Khmer", "Khmer OS", "Battambang", sans-serif;
 }
-</style>
+</style> Add khmer language 
