@@ -50,7 +50,7 @@
 </template>
 
 <script>
-import portraitImage from '@/assets/portrait.jpg';
+import portraitImage from '@/assets/portrait.JPG';
 
 export default {
   name: 'Home',
