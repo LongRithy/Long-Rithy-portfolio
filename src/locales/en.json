@@ -81,6 +81,10 @@
     "tagline": "Creating beautiful and functional web experiences.",
     "copyright": "All rights reserved.",
     "Portfolio.copyright": ""
+  },
+  "PageNotFound": {
+    "notFound": "Page Not Found",
+    "gohome": "Go to Home"
   }
 
 }

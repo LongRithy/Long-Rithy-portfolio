@@ -7,43 +7,20 @@
         to="/"
         class="mt-8 inline-block px-6 py-3 gradient-bg text-white rounded-full hover:opacity-90 transition"
       >
-        {{ $t('PageNotFound.home') }}
+        {{ $t('PageNotFound.gohome') }}
       </router-link>
     </div>
   </section>
 </template>
-
-<script>
-export default {
-  name: "NotFound",
-  i18n: {
-    messages: {
-      en: {
-        PageNotFound: {
-          message: "Sorry, the page you are looking for does not exist.",
-          home: "Back to Home"
-        }
-      },
-      km: {
-        PageNotFound: {
-          message: "សូមអភ័យទោស ទំព័រដែលអ្នកកំពុងស្វែងរក មិនមានទេ។",
-          home: "ត្រលប់ទៅទំព័រដើម"
-        }
-      }
-    }
-  }
-};
-</script>
-
 <style scoped>
-.gradient-text {
-  background: linear-gradient(135deg, #3a86ff, #8338ec);
-  -webkit-background-clip: text;
-  background-clip: text;
-  color: transparent;
-}
+  .gradient-text {
+    background: linear-gradient(135deg, #3a86ff, #8338ec);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
 
-.gradient-bg {
+  .gradient-bg {
   background: linear-gradient(135deg, #3a86ff, #8338ec);
 }
 </style>
