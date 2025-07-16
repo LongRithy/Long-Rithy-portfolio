@@ -16,9 +16,12 @@
 
 <script>
 export default {
-  name: "PageNotFound"
-
-};
+  name: 'PageNotFound',
+  components: {pageNotFound: 'PageNotFound' },
+  mounted() {
+    window.scrollTo(0, 0);  
+  }
+}
 </script>
 
 <style scoped>

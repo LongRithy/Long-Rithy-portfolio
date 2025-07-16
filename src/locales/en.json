@@ -57,6 +57,7 @@
     "happy": "20+ Happy",
     "skills": "Skills",
     "AboutMySkills": "About my skills"
+  
   },
   "skills": {
     "title": "My",
@@ -70,12 +71,34 @@
     "readmore": "Read More"
   },
   "projectsPage": {
-  "title": "My Projects",
-  "projects": "Projects",
-  "viewDetails": "View Details",
-  "showMore": "Show More",
-  "showLess": "Show Less"
+    "title": "My Projects",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "project1": {
+      "title": "E-commerce Platform",
+      "description": "A full-featured online store with payment integration."
     },
+    "project2": {
+      "title": "Task Management App",
+      "description": "Productivity application for personal and team tasks."
+    },
+    "project3": {
+      "title": "Weather Dashboard",
+      "description": "Real-time weather information with forecasts."
+    },
+    "project4": {
+      "title": "Portfolio Website",
+      "description": "Personal portfolio showcasing projects and skills."
+    },
+    "project5": {
+      "title": "Recipe Finder",
+      "description": "Search engine for finding recipes by ingredients."
+    },
+    "project6": {
+      "title": "Fitness Tracker",
+      "description": "Application for tracking workouts and progress."
+    }
+},
     
   "Footer": {
     "tagline": "Creating beautiful and functional web experiences.",

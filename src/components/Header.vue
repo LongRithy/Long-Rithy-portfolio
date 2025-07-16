@@ -135,10 +135,11 @@ export default {
 <style scoped>
 /* Gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #2e7fd1, #8338ec);
+  background: linear-gradient(135deg, #f4f7f7, #cfd3d5);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+   font-weight: bold;
 }
 
 /* Navigation link styling */

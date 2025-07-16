@@ -2,9 +2,7 @@
   <section id="projects" class="py-20 bg-gray-100 px-6">
     <div class="container mx-auto">
       <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 fade-in">
-      {{ $t('') }}
-    <span class="gradient-text">{{ $t('projectsPage.title') }}</span>
-
+        <span class="gradient-text">{{ $t('projectsPage.title') }}</span>
       </h2>
 
       <!-- Project Grid -->
@@ -34,7 +32,7 @@
 import ProjectCard from '@/components/ProjectCard.vue'
 
 export default {
-  name: 'Projects',
+  name: 'projects',
   components: {
     ProjectCard
   },
@@ -43,24 +41,22 @@ export default {
       showAll: false,
       projects: [
         {
-          title: 'E-commerce Platform',
-          description: 'A full-featured online store with payment integration.',
+          titleKey: 'projectsPage.project1.title',
+          descriptionKey: 'projectsPage.project1.description',
           tags: ['Vue.js', 'Node.js', 'MongoDB'],
           image:
             'https://images.unsplash.com/photo-1551434678-e076c223a692?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80'
         },
         {
-          title: 'Task Management App',
-          description:
-            'Productivity application for personal and team tasks.',
+          titleKey: 'projectsPage.project2.title',
+          descriptionKey: 'projectsPage.project2.description',
           tags: ['React', 'Firebase', 'Tailwind'],
           image:
             'https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1715&q=80'
         },
         {
-          title: 'Weather Dashboard',
-          description:
-            'Real-time weather information with forecasts.',
+          titleKey: 'projectsPage.project3.title',
+          descriptionKey: 'projectsPage.project3.description',
           tags: ['JavaScript', 'API', 'CSS3'],
           image:
             'https://images.unsplash.com/photo-1580193769210-b8d1c049a7d9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1774&q=80'
@@ -68,25 +64,22 @@ export default {
       ],
       moreProjects: [
         {
-          title: 'Portfolio Website',
-          description:
-            'Personal portfolio showcasing projects and skills.',
+          titleKey: 'projectsPage.project4.title',
+          descriptionKey: 'projectsPage.project4.description',
           tags: ['HTML5', 'CSS3', 'JavaScript'],
           image:
             'https://images.unsplash.com/photo-1626785774573-4b799315345d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1791&q=80'
         },
         {
-          title: 'Recipe Finder',
-          description:
-            'Search engine for finding recipes by ingredients.',
+          titleKey: 'projectsPage.project5.title',
+          descriptionKey: 'projectsPage.project5.description',
           tags: ['Vue.js', 'API', 'SCSS'],
           image:
             'https://images.unsplash.com/photo-1490818387583-1baba5e638af?ixlib=rb-4.0.3&auto=format&fit=crop&w=1772&q=80'
         },
         {
-          title: 'Fitness Tracker',
-          description:
-            'Application for tracking workouts and progress.',
+          titleKey: 'projectsPage.project6.title',
+          descriptionKey: 'projectsPage.project6.description',
           tags: ['React', 'Chart.js', 'Firebase'],
           image:
             'https://images.unsplash.com/photo-1534438327276-14e5300c3a48?ixlib=rb-4.0.3&auto=format&fit=crop&w=1770&q=80'
@@ -143,4 +136,4 @@ export default {
 .khmer {
   font-family: "Noto Sans Khmer", "Khmer OS", "Battambang", sans-serif;
 }
-</style> 
+</style>

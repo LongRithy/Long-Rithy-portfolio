@@ -12,7 +12,7 @@ const routes = [
   { path: '/about', component: About },
   { path: '/projects', component: Projects },
   { path: '/contact', component: Contact },
-  { path: '/:pathMatch(.*)*', component:NotFound }
+  { path: '/:pathMatch(.*)*', component: NotFound }
 ]
   
 const router = createRouter({

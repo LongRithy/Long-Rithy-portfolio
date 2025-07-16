@@ -4,12 +4,13 @@
       <!-- About Heading -->
       <h1 class="text-4xl font-bold text-center text-gray-800 mb-8">
         {{ $t('About.title') }}
-        <span class="gradient-text">{{ $t('About.me') }}</span>
+        <span class="gradient-text">{{ $t('') }}</span>
       </h1>
+      
 
       <!-- About Content -->
-      <div class="max-w-3xl mx-auto text-center text-gray-700 text-lg mb-16">
-        <p class="mb-4">
+      <div class="max-w-8xl mx-auto text-center text-gray-800 text-lg mb-12">
+        <p class="mb-3">
           {{ $t('About.content1') }}
         </p>
         <p>
@@ -18,27 +19,27 @@
       </div>
 
       <!-- Quick Facts -->
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-16">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center mb-12">
         <div>
-          <h3 class="text-3xl font-bold text-gray-800">
+          <h3 class="text-2xl font-bold text-gray-800">
             {{ $t('About.education') }}
           </h3>
           <p class="text-gray-600">{{ $t('About.degree') }}</p>
         </div>
         <div>
-          <h3 class="text-3xl font-bold text-gray-800">
+          <h3 class="text-2xl font-bold text-gray-800">
             {{ $t('About.years') }}
           </h3>
           <p class="text-gray-600">{{ $t('About.experience') }}</p>
         </div>
         <div>
-          <h3 class="text-3xl font-bold text-gray-800">
+          <h3 class="text-2xl font-bold text-gray-800">
             {{ $t('About.completed') }}
           </h3>
           <p class="text-gray-600">{{ $t('About.projects') }}</p>
         </div>
         <div>
-          <h3 class="text-3xl font-bold text-gray-800">
+          <h3 class="text-2xl font-bold text-gray-800">
             {{ $t('About.happy') }}
           </h3>
           <p class="text-gray-600">{{ $t('About.clients') }}</p>
@@ -46,7 +47,7 @@
       </div>
 
       <!-- Skills Section -->
-      <div class="mt-16">
+      <div class="mt-14">
         <h2 class="text-3xl font-bold text-center text-gray-800 mb-12">
           {{ $t('About.heading') }}
         </h2>
@@ -70,26 +71,7 @@ import { data } from 'autoprefixer';
 
 export default {
   name: 'aboutView',
-  // mounted() {
-  //   this.$i18n('en', {
-  //     about: {
-  //       title: "About",
-  //       me: "Me",
-  //       heading: "Who I Am",
-  //       content1: "I'm a passionate frontend developer with 5+ years of experience building modern web applications.",
-  //       content2: "My approach combines aesthetic design with technical excellence - I believe beautiful interfaces should also be performant and accessible.",
-  //       education: "Education",
-  //       degree: "Bachelor in Computer Science",
-  //       experience: "Experience",
-  //       years: "5+ Years",
-  //       projects: "Projects",
-  //       completed: "50+ Completed",
-  //       clients: "Clients",
-  //       happy: "20+ Happy",
-  //       skills: "My Skills"
-  //     }
-  //   });
-  // },
+  
   components: {
     SkillItem
   },
@@ -112,7 +94,7 @@ export default {
 
 <style scoped>
 .gradient-text {
-  background: linear-gradient(135deg, #3a86ff, #864dc7);
+  background: linear-gradient(135deg, #225eac, #864dc7);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;

@@ -5,7 +5,7 @@
      <h2 class="text-3xl font-bold text-center text-gray-800 mb-12 fade-in">
   {{ $t('Contact.title') }}
   <span class="gradient-text">{{ $t('Contact.touch') }}</span>
-</h2>
+  </h2>
       <div class="bg-white rounded-xl shadow-lg overflow-hidden">
   <div class="grid grid-cols-1 md:grid-cols-2">
     <!-- Left Side: Contact Info -->
@@ -270,6 +270,7 @@ export default {
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
+  
 }
 
 .gradient-bg {

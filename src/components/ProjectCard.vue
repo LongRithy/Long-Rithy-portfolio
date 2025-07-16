@@ -1,41 +1,30 @@
 <template>
   <div
-    class="project-card bg-white rounded-xl overflow-hidden shadow-md fade-in"
-    :class="'delay-' + delay"
+    class="bg-white rounded-lg shadow p-6 hover:shadow-lg transition"
+    :style="{ animationDelay: `${delay * 0.1}s` }"
   >
-    <div class="relative overflow-hidden">
-      <img
-        :src="project.image"
-        :alt="project.title"
-        class="w-full h-48 object-cover transition duration-500 hover:scale-105"
-      />
-      <div
-        class="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 hover:opacity-100 transition"
+    <img
+      :src="project.image"
+      class="mb-4 rounded w-full h-48 object-cover"
+      alt="Project image"
+    />
+
+    <h3 class="text-xl font-bold mb-2">
+      {{ $t(project.titleKey) }}
+    </h3>
+
+    <p class="text-gray-600 mb-3">
+      {{ $t(project.descriptionKey) }}
+    </p>
+
+    <div class="flex flex-wrap gap-2">
+      <span
+        v-for="(tag, i) in project.tags"
+        :key="i"
+        class="text-xs inline-block px-2 py-1 rounded-full bg-blue-100 text-blue-700"
       >
-        <a
-          href="#"
-          class="px-4 py-2 bg-white text-gray-800 rounded-full font-medium"
-        >
-          {{ $t('viewDetails') }}
-        </a>
-      </div>
-    </div>
-    <div class="p-6">
-      <h3 class="text-xl font-semibold text-gray-800 mb-2">
-        {{ project.title }}
-      </h3>
-      <p class="text-gray-600 mb-4">
-        {{ project.description }}
-      </p>
-      <div class="flex flex-wrap gap-2">
-        <span
-          v-for="(tag, index) in project.tags"
-          :key="index"
-          class="px-3 py-1 bg-gray-100 text-gray-700 rounded-full text-sm"
-        >
-          {{ tag }}
-        </span>
-      </div>
+        {{ tag }}
+      </span>
     </div>
   </div>
 </template>
@@ -44,8 +33,30 @@
 export default {
   name: 'ProjectCard',
   props: {
-    project: Object,
-    delay: Number
+    project: {
+      type: Object,
+      required: true,
+    },
+    delay: {
+      type: Number,
+      default: 0,
+    },
+  },
+};
+</script>
+
+<style scoped>
+/* Optional: fade-in animation for cards */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
-</script>
+
+.bg-white {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 0.5s ease forwards;
+}
+</style>
